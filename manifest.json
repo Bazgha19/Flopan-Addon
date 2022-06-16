@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Flopan",
+    "version": "1.0",
+    "description": "Flopan stands for floating panel. It is a special type of multi-window mode addons. It lets the user watch a video or read an article in a small window pinned to a corner of the screen while navigating between apps or browsing content on the main screen.",
+    
+    "action":{
+      "default_icon":"48.png",
+      "default_popup": "popup.html"
+  },
+
+    "icons":{
+        "128": "128.png",
+        "64": "64.png",
+        "48": "48.png"
+    },
+
+      "permissions": [
+        "storage",
+        "activeTab",
+        "contextMenus"
+      ]
+}
